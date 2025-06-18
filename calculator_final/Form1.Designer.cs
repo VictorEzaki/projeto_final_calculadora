@@ -67,6 +67,7 @@
             btnPorcent.TabIndex = 0;
             btnPorcent.Text = "%";
             btnPorcent.UseVisualStyleBackColor = true;
+            btnPorcent.Click += btnPorcent_Click;
             // 
             // btnDiv
             // 
@@ -77,6 +78,7 @@
             btnDiv.TabIndex = 1;
             btnDiv.Text = "/";
             btnDiv.UseVisualStyleBackColor = true;
+            btnDiv.Click += btnDiv_Click;
             // 
             // btnClearAll
             // 
@@ -87,6 +89,7 @@
             btnClearAll.TabIndex = 2;
             btnClearAll.Text = "C";
             btnClearAll.UseVisualStyleBackColor = true;
+            btnClearAll.Click += btnClearAll_Click;
             // 
             // btnBackSpace
             // 
@@ -97,6 +100,7 @@
             btnBackSpace.TabIndex = 3;
             btnBackSpace.Text = "<--";
             btnBackSpace.UseVisualStyleBackColor = true;
+            btnBackSpace.Click += btnBackSpace_Click;
             // 
             // btnMulti
             // 
@@ -107,6 +111,7 @@
             btnMulti.TabIndex = 7;
             btnMulti.Text = "x";
             btnMulti.UseVisualStyleBackColor = true;
+            btnMulti.Click += btnMulti_Click;
             // 
             // btnNine
             // 
@@ -150,6 +155,7 @@
             btnMinus.TabIndex = 11;
             btnMinus.Text = "-";
             btnMinus.UseVisualStyleBackColor = true;
+            btnMinus.Click += btnMinus_Click;
             // 
             // btnSix
             // 
@@ -193,6 +199,7 @@
             btnPlus.TabIndex = 15;
             btnPlus.Text = "+";
             btnPlus.UseVisualStyleBackColor = true;
+            btnPlus.Click += btnPlus_Click;
             // 
             // btnThree
             // 
@@ -236,6 +243,7 @@
             btnIgual.TabIndex = 19;
             btnIgual.Text = "=";
             btnIgual.UseVisualStyleBackColor = true;
+            btnIgual.Click += btnIgual_Click;
             // 
             // btnDecimal
             // 

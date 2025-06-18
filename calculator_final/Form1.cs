@@ -2,6 +2,18 @@ namespace calculator_final
 {
     public partial class Form1 : Form
     {
+        List<float> history = new List<float>();
+
+        private Operacao OpSelected { get; set; }
+        private float Value { get; set; }
+        private enum Operacao
+        {
+            Adicao,
+            Subtracao,
+            Multi,
+            Divsao
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -84,6 +96,73 @@ namespace calculator_final
             num *= -1;
 
             lblResult.Text = num.ToString();
+        }
+
+        private void btnClearAll_Click(object sender, EventArgs e)
+        {
+            lblResult.Text = "";
+        }
+
+        private void btnBackSpace_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnIgual_Click(object sender, EventArgs e)
+        {
+            switch(OpSelected)
+            {
+                case Operacao.Adicao:
+                    lblResult.Text 
+                    break;
+
+                case Operacao.Subtracao:
+                    break;
+
+                case Operacao.Multi:
+                    break;
+
+                case Operacao.Divsao:
+                    break;
+            }
+        }
+
+        private void btnPlus_Click(object sender, EventArgs e)
+        {
+            OpSelected = Operacao.Adicao;
+            Value = float.Parse(lblResult.Text);
+            lblResult.Text = "";
+        }
+
+        private void btnMinus_Click(object sender, EventArgs e)
+        {
+            OpSelected = Operacao.Subtracao;
+            Value = float.Parse(lblResult.Text);
+            lblResult.Text = "";
+        }
+
+        private void btnMulti_Click(object sender, EventArgs e)
+        {
+            OpSelected = Operacao.Multi;
+            lblResult.Text = "";
+        }
+
+        private void btnDiv_Click(object sender, EventArgs e)
+        {
+            OpSelected = Operacao.Divsao;
+            lblResult.Text = "";
+        }
+
+        private void btnPorcent_Click(object sender, EventArgs e)
+        {
+            if (lblResult.Text == "")
+            {
+            }
+            else
+            {
+                float number = float.Parse(lblResult.Text);
+
+                lblResult.Text = (number / 100).ToString();
+            }
         }
     }
 }
