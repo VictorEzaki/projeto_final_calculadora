@@ -1,18 +1,11 @@
+using System.Data;
+using System.Linq.Expressions;
+
 namespace calculator_final
 {
     public partial class Form1 : Form
     {
         List<float> history = new List<float>();
-
-        private Operacao OpSelected { get; set; }
-        private float Value { get; set; }
-        private enum Operacao
-        {
-            Adicao,
-            Subtracao,
-            Multi,
-            Divsao
-        }
 
         public Form1()
         {
@@ -109,60 +102,53 @@ namespace calculator_final
 
         private void btnIgual_Click(object sender, EventArgs e)
         {
-            switch(OpSelected)
+            string expression = lblResult.Text;
+
+            expression = expression.Replace("x", "*").Replace("÷", "/");
+
+            var regex = new System.Text.RegularExpressions.Regex(@"(\d+(?:\.\d+)?)([+\-*/])(\d+(?:\.\d+)?)%");
+            expression = regex.Replace(expression, match =>
             {
-                case Operacao.Adicao:
-                    lblResult.Text 
-                    break;
+                string valorAnterior = match.Groups[1].Value;
+                string operador = match.Groups[2].Value;
+                string percentual = match.Groups[3].Value;
 
-                case Operacao.Subtracao:
-                    break;
+                return $"{valorAnterior}{operador}({percentual}/100*{valorAnterior})";
+            });
 
-                case Operacao.Multi:
-                    break;
+            var result = new DataTable().Compute(expression, null);
 
-                case Operacao.Divsao:
-                    break;
-            }
+            lblResult.Text = result.ToString();
         }
 
         private void btnPlus_Click(object sender, EventArgs e)
         {
-            OpSelected = Operacao.Adicao;
-            Value = float.Parse(lblResult.Text);
-            lblResult.Text = "";
+            lblResult.Text += "+";
         }
 
         private void btnMinus_Click(object sender, EventArgs e)
         {
-            OpSelected = Operacao.Subtracao;
-            Value = float.Parse(lblResult.Text);
-            lblResult.Text = "";
+            lblResult.Text += "-";
         }
 
         private void btnMulti_Click(object sender, EventArgs e)
         {
-            OpSelected = Operacao.Multi;
-            lblResult.Text = "";
+            lblResult.Text += "x";
         }
 
         private void btnDiv_Click(object sender, EventArgs e)
         {
-            OpSelected = Operacao.Divsao;
-            lblResult.Text = "";
+            lblResult.Text += "÷";
         }
 
         private void btnPorcent_Click(object sender, EventArgs e)
         {
-            if (lblResult.Text == "")
-            {
-            }
-            else
-            {
-                float number = float.Parse(lblResult.Text);
+            lblResult.Text += "%";
+        }
 
-                lblResult.Text = (number / 100).ToString();
-            }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -76,7 +76,7 @@
             btnDiv.Name = "btnDiv";
             btnDiv.Size = new Size(64, 62);
             btnDiv.TabIndex = 1;
-            btnDiv.Text = "/";
+            btnDiv.Text = "÷";
             btnDiv.UseVisualStyleBackColor = true;
             btnDiv.Click += btnDiv_Click;
             // 
@@ -361,6 +361,7 @@
             MainMenuStrip = mnsMenu;
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             mnsMenu.ResumeLayout(false);
             mnsMenu.PerformLayout();
             ResumeLayout(false);
