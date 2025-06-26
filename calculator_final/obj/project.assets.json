@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\victor.ezaki\\Documents\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj",
+      "projectUniqueName": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj",
       "projectName": "calculator_final",
-      "projectPath": "C:\\Users\\victor.ezaki\\Documents\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj",
+      "projectPath": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj",
       "packagesPath": "C:\\Users\\victor.ezaki\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\victor.ezaki\\Documents\\projeto_final_calculadora\\calculator_final\\obj\\",
+      "outputPath": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
