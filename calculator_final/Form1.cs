@@ -7,6 +7,8 @@ namespace calculator_final
     {
         List<float> history = new List<float>();
 
+        private string StringResult {get; set;}
+
         public Form1()
         {
             InitializeComponent();
@@ -94,6 +96,7 @@ namespace calculator_final
         private void btnClearAll_Click(object sender, EventArgs e)
         {
             lblResult.Text = "";
+            StringResult = "";
         }
 
         private void btnBackSpace_Click(object sender, EventArgs e)
@@ -102,51 +105,91 @@ namespace calculator_final
 
         private void btnIgual_Click(object sender, EventArgs e)
         {
-            string expression = lblResult.Text;
-
-            expression = expression.Replace("x", "*").Replace("÷", "/");
-
-            var regex = new System.Text.RegularExpressions.Regex(@"(\d+(?:\.\d+)?)([+\-*/])(\d+(?:\.\d+)?)%");
-            expression = regex.Replace(expression, match =>
+            try
             {
-                string valorAnterior = match.Groups[1].Value;
-                string operador = match.Groups[2].Value;
-                string percentual = match.Groups[3].Value;
+                StringResult += lblResult.Text;
+                string expression = StringResult;
 
-                return $"{valorAnterior}{operador}({percentual}/100*{valorAnterior})";
-            });
+                expression = expression.Replace("x", "*").Replace("÷", "/").Replace(",", ".");
 
-            var result = new DataTable().Compute(expression, null);
+                var regex = new System.Text.RegularExpressions.Regex(@"(\d+(?:\.\d+)?)([+\-*/])(\d+(?:\.\d+)?)%");
+                expression = regex.Replace(expression, match =>
+                {
+                    string valorAnterior = match.Groups[1].Value;
+                    string operador = match.Groups[2].Value;
+                    string percentual = match.Groups[3].Value;
 
-            lblResult.Text = result.ToString();
+                    return $"{valorAnterior}{operador}({percentual}/100*{valorAnterior})";
+                });
+
+                var result = new DataTable().Compute(expression, null);
+
+                lblResult.Text = result.ToString();
+                lblAuxiliar.Text = "";
+            }
+            catch (Exception error)
+            {
+
+            }
+
         }
 
         private void btnPlus_Click(object sender, EventArgs e)
         {
             lblResult.Text += "+";
+            StringResult += lblResult.Text;
+            lblAuxiliar.Text += lblResult.Text;
+            lblResult.Text = "";
         }
 
         private void btnMinus_Click(object sender, EventArgs e)
         {
             lblResult.Text += "-";
+            StringResult += lblResult.Text;
+            lblAuxiliar.Text += lblResult.Text;
+            lblResult.Text = "";
         }
 
         private void btnMulti_Click(object sender, EventArgs e)
         {
             lblResult.Text += "x";
+            StringResult += lblResult.Text;
+            lblAuxiliar.Text += lblResult.Text;
+            lblResult.Text = "";
         }
 
         private void btnDiv_Click(object sender, EventArgs e)
         {
             lblResult.Text += "÷";
+            StringResult += lblResult.Text;
+            lblAuxiliar.Text += lblResult.Text;
+            lblResult.Text = "";
         }
 
         private void btnPorcent_Click(object sender, EventArgs e)
         {
             lblResult.Text += "%";
+            StringResult += lblResult.Text;
+            lblAuxiliar.Text += lblResult.Text;
+            lblResult.Text = "";
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblResult_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
