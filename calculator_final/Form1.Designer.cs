@@ -492,6 +492,7 @@
             // lblResult
             // 
             lblResult.AutoSize = true;
+            lblResult.BackColor = Color.Transparent;
             lblResult.Dock = DockStyle.Right;
             lblResult.Font = new Font("Segoe UI", 30F);
             lblResult.ImageAlign = ContentAlignment.MiddleRight;
@@ -505,7 +506,9 @@
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.BackColor = Color.Transparent;
+            tableLayoutPanel1.BackColor = Color.FromArgb(51, 51, 51);
+            tableLayoutPanel1.BackgroundImage = (Image)resources.GetObject("tableLayoutPanel1.BackgroundImage");
+            tableLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
             tableLayoutPanel1.ColumnCount = 1;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.Controls.Add(lblAuxiliar, 0, 0);
@@ -523,6 +526,7 @@
             // 
             lblAuxiliar.Anchor = AnchorStyles.Right;
             lblAuxiliar.AutoSize = true;
+            lblAuxiliar.BackColor = Color.Transparent;
             lblAuxiliar.Location = new Point(269, 11);
             lblAuxiliar.Name = "lblAuxiliar";
             lblAuxiliar.Size = new Size(0, 15);

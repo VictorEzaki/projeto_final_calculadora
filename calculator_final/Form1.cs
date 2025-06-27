@@ -7,7 +7,7 @@ namespace calculator_final
     {
         List<float> history = new List<float>();
 
-        private string StringResult {get; set;}
+        private string StringResult { get; set; }
 
         public Form1()
         {
@@ -31,7 +31,9 @@ namespace calculator_final
 
         private void conversorºCToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Form2 form2 = new Form2();
+            this.Hide();
+            form2.ShowDialog();
         }
 
         private void btnOne_Click(object sender, EventArgs e)
@@ -86,11 +88,15 @@ namespace calculator_final
 
         private void btnInverter_Click(object sender, EventArgs e)
         {
-            float num = float.Parse(lblResult.Text);
+            try
+            {
+                float num = float.Parse(lblResult.Text);
 
-            num *= -1;
+                num *= -1;
 
-            lblResult.Text = num.ToString();
+                lblResult.Text = num.ToString();
+            }
+            catch (Exception ex) { }
         }
 
         private void btnClearAll_Click(object sender, EventArgs e)
@@ -101,6 +107,13 @@ namespace calculator_final
 
         private void btnBackSpace_Click(object sender, EventArgs e)
         {
+            try
+            {
+                string number = lblResult.Text;
+
+                lblResult.Text = number.Remove(number.Length - 1, 1);
+            }
+            catch (Exception ex) { }
         }
 
         private void btnIgual_Click(object sender, EventArgs e)
@@ -112,19 +125,10 @@ namespace calculator_final
 
                 expression = expression.Replace("x", "*").Replace("÷", "/").Replace(",", ".");
 
-                var regex = new System.Text.RegularExpressions.Regex(@"(\d+(?:\.\d+)?)([+\-*/])(\d+(?:\.\d+)?)%");
-                expression = regex.Replace(expression, match =>
-                {
-                    string valorAnterior = match.Groups[1].Value;
-                    string operador = match.Groups[2].Value;
-                    string percentual = match.Groups[3].Value;
-
-                    return $"{valorAnterior}{operador}({percentual}/100*{valorAnterior})";
-                });
-
                 var result = new DataTable().Compute(expression, null);
 
                 lblResult.Text = result.ToString();
+                StringResult = "";
                 lblAuxiliar.Text = "";
             }
             catch (Exception error)
@@ -168,10 +172,19 @@ namespace calculator_final
 
         private void btnPorcent_Click(object sender, EventArgs e)
         {
-            lblResult.Text += "%";
-            StringResult += lblResult.Text;
-            lblAuxiliar.Text += lblResult.Text;
-            lblResult.Text = "";
+            try
+            {
+                float num = float.Parse(lblResult.Text);
+                num /= 100;
+                StringResult += num.ToString();
+                lblAuxiliar.Text += num.ToString();
+                lblResult.Text = "";
+                lblResult.Text = "";
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
