@@ -31,7 +31,7 @@ namespace calculator_final
 
         private void conversorºCToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
+            FormIMC form2 = new FormIMC();
             this.Hide();
             form2.ShowDialog();
         }
@@ -205,6 +205,11 @@ namespace calculator_final
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void sAIRToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
