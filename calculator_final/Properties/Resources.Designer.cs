@@ -73,6 +73,16 @@ namespace calculator_final.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap backgorund_result {
+            get {
+                object obj = ResourceManager.GetObject("backgorund_result", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap backspace {
             get {
                 object obj = ResourceManager.GetObject("backspace", resourceCulture);
