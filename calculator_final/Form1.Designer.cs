@@ -477,6 +477,7 @@
             conversorDeMoedasToolStripMenuItem.Name = "conversorDeMoedasToolStripMenuItem";
             conversorDeMoedasToolStripMenuItem.Size = new Size(212, 22);
             conversorDeMoedasToolStripMenuItem.Text = "Conversor de moedas";
+            conversorDeMoedasToolStripMenuItem.Click += conversorDeMoedasToolStripMenuItem_Click;
             // 
             // conversorDeTemperaturaToolStripMenuItem
             // 
@@ -485,6 +486,7 @@
             conversorDeTemperaturaToolStripMenuItem.Name = "conversorDeTemperaturaToolStripMenuItem";
             conversorDeTemperaturaToolStripMenuItem.Size = new Size(212, 22);
             conversorDeTemperaturaToolStripMenuItem.Text = "Conversor de temperatura";
+            conversorDeTemperaturaToolStripMenuItem.Click += conversorDeTemperaturaToolStripMenuItem_Click;
             // 
             // regraDeTrêsToolStripMenuItem
             // 
@@ -493,6 +495,7 @@
             regraDeTrêsToolStripMenuItem.Name = "regraDeTrêsToolStripMenuItem";
             regraDeTrêsToolStripMenuItem.Size = new Size(212, 22);
             regraDeTrêsToolStripMenuItem.Text = "Regra de três";
+            regraDeTrêsToolStripMenuItem.Click += regraDeTrêsToolStripMenuItem_Click;
             // 
             // sAIRToolStripMenuItem
             // 
