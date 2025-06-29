@@ -31,9 +31,9 @@ namespace calculator_final
 
         private void conversorºCToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
-            this.Hide();
-            form2.ShowDialog();
+            FormIMC formIMC = new FormIMC();
+            Hide();
+            formIMC.ShowDialog();
         }
 
         private void btnOne_Click(object sender, EventArgs e)
@@ -205,6 +205,32 @@ namespace calculator_final
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void sAIRToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void conversorDeMoedasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormConversorMoedas formConversorMoedas = new FormConversorMoedas();
+            Hide();
+            formConversorMoedas.ShowDialog();
+        }
+
+        private void conversorDeTemperaturaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormConversorTemp formConversorTemp = new FormConversorTemp();
+            Hide();
+            formConversorTemp.ShowDialog();
+        }
+
+        private void regraDeTrêsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormRegraTres formRegraTres = new FormRegraTres();
+            Hide();
+            formRegraTres.ShowDialog();
         }
     }
 }

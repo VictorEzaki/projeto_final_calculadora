@@ -50,11 +50,12 @@
             btnZero = new Button();
             btnInverter = new Button();
             mnsMenu = new MenuStrip();
-            calculadoraIMCToolStripMenuItem = new ToolStripMenuItem();
+            FormCalculadora = new ToolStripMenuItem();
             conversorºCToolStripMenuItem = new ToolStripMenuItem();
             conversorDeMoedasToolStripMenuItem = new ToolStripMenuItem();
             conversorDeTemperaturaToolStripMenuItem = new ToolStripMenuItem();
             regraDeTrêsToolStripMenuItem = new ToolStripMenuItem();
+            sAIRToolStripMenuItem = new ToolStripMenuItem();
             lblResult = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
             lblAuxiliar = new Label();
@@ -445,24 +446,25 @@
             // mnsMenu
             // 
             mnsMenu.BackColor = Color.Transparent;
-            mnsMenu.Items.AddRange(new ToolStripItem[] { calculadoraIMCToolStripMenuItem });
+            mnsMenu.Items.AddRange(new ToolStripItem[] { FormCalculadora });
             mnsMenu.Location = new Point(0, 0);
             mnsMenu.Name = "mnsMenu";
             mnsMenu.Size = new Size(294, 24);
             mnsMenu.TabIndex = 20;
             mnsMenu.Text = "menuStrip1";
             // 
-            // calculadoraIMCToolStripMenuItem
+            // FormCalculadora
             // 
-            calculadoraIMCToolStripMenuItem.BackColor = Color.FromArgb(76, 74, 76);
-            calculadoraIMCToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { conversorºCToolStripMenuItem, conversorDeMoedasToolStripMenuItem, conversorDeTemperaturaToolStripMenuItem, regraDeTrêsToolStripMenuItem });
-            calculadoraIMCToolStripMenuItem.Name = "calculadoraIMCToolStripMenuItem";
-            calculadoraIMCToolStripMenuItem.Size = new Size(50, 20);
-            calculadoraIMCToolStripMenuItem.Text = "Menu";
+            FormCalculadora.BackColor = Color.FromArgb(76, 74, 76);
+            FormCalculadora.DropDownItems.AddRange(new ToolStripItem[] { conversorºCToolStripMenuItem, conversorDeMoedasToolStripMenuItem, conversorDeTemperaturaToolStripMenuItem, regraDeTrêsToolStripMenuItem, sAIRToolStripMenuItem });
+            FormCalculadora.Name = "FormCalculadora";
+            FormCalculadora.Size = new Size(50, 20);
+            FormCalculadora.Text = "Menu";
             // 
             // conversorºCToolStripMenuItem
             // 
             conversorºCToolStripMenuItem.BackColor = Color.FromArgb(76, 74, 76);
+            conversorºCToolStripMenuItem.ForeColor = Color.White;
             conversorºCToolStripMenuItem.Name = "conversorºCToolStripMenuItem";
             conversorºCToolStripMenuItem.Size = new Size(212, 22);
             conversorºCToolStripMenuItem.Text = "IMC";
@@ -471,23 +473,38 @@
             // conversorDeMoedasToolStripMenuItem
             // 
             conversorDeMoedasToolStripMenuItem.BackColor = Color.FromArgb(76, 74, 76);
+            conversorDeMoedasToolStripMenuItem.ForeColor = Color.White;
             conversorDeMoedasToolStripMenuItem.Name = "conversorDeMoedasToolStripMenuItem";
             conversorDeMoedasToolStripMenuItem.Size = new Size(212, 22);
             conversorDeMoedasToolStripMenuItem.Text = "Conversor de moedas";
+            conversorDeMoedasToolStripMenuItem.Click += conversorDeMoedasToolStripMenuItem_Click;
             // 
             // conversorDeTemperaturaToolStripMenuItem
             // 
             conversorDeTemperaturaToolStripMenuItem.BackColor = Color.FromArgb(76, 74, 76);
+            conversorDeTemperaturaToolStripMenuItem.ForeColor = Color.White;
             conversorDeTemperaturaToolStripMenuItem.Name = "conversorDeTemperaturaToolStripMenuItem";
             conversorDeTemperaturaToolStripMenuItem.Size = new Size(212, 22);
             conversorDeTemperaturaToolStripMenuItem.Text = "Conversor de temperatura";
+            conversorDeTemperaturaToolStripMenuItem.Click += conversorDeTemperaturaToolStripMenuItem_Click;
             // 
             // regraDeTrêsToolStripMenuItem
             // 
             regraDeTrêsToolStripMenuItem.BackColor = Color.FromArgb(76, 74, 76);
+            regraDeTrêsToolStripMenuItem.ForeColor = Color.White;
             regraDeTrêsToolStripMenuItem.Name = "regraDeTrêsToolStripMenuItem";
             regraDeTrêsToolStripMenuItem.Size = new Size(212, 22);
             regraDeTrêsToolStripMenuItem.Text = "Regra de três";
+            regraDeTrêsToolStripMenuItem.Click += regraDeTrêsToolStripMenuItem_Click;
+            // 
+            // sAIRToolStripMenuItem
+            // 
+            sAIRToolStripMenuItem.BackColor = Color.FromArgb(228, 103, 83);
+            sAIRToolStripMenuItem.ForeColor = Color.White;
+            sAIRToolStripMenuItem.Name = "sAIRToolStripMenuItem";
+            sAIRToolStripMenuItem.Size = new Size(212, 22);
+            sAIRToolStripMenuItem.Text = "Sair";
+            sAIRToolStripMenuItem.Click += sAIRToolStripMenuItem_Click;
             // 
             // lblResult
             // 
@@ -538,6 +555,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(51, 51, 51);
             ClientSize = new Size(294, 512);
+            ControlBox = false;
             Controls.Add(tableLayoutPanel1);
             Controls.Add(btnIgual);
             Controls.Add(btnDecimal);
@@ -595,7 +613,7 @@
         private Button btnZero;
         private Button btnInverter;
         private MenuStrip mnsMenu;
-        private ToolStripMenuItem calculadoraIMCToolStripMenuItem;
+        private ToolStripMenuItem FormCalculadora;
         private ToolStripMenuItem conversorºCToolStripMenuItem;
         private ToolStripMenuItem conversorDeMoedasToolStripMenuItem;
         private ToolStripMenuItem conversorDeTemperaturaToolStripMenuItem;
@@ -603,5 +621,6 @@
         private Label lblResult;
         private TableLayoutPanel tableLayoutPanel1;
         private Label lblAuxiliar;
+        private ToolStripMenuItem sAIRToolStripMenuItem;
     }
 }
