@@ -63,6 +63,7 @@
             conversorDeTemperaturaToolStripMenuItem = new ToolStripMenuItem();
             regraDeTrêsToolStripMenuItem = new ToolStripMenuItem();
             sAIRToolStripMenuItem = new ToolStripMenuItem();
+            iMCToolStripMenuItem = new ToolStripMenuItem();
             tableLayoutPanel1.SuspendLayout();
             mnsMenu.SuspendLayout();
             SuspendLayout();
@@ -444,7 +445,7 @@
             // calculadoraIMCToolStripMenuItem
             // 
             calculadoraIMCToolStripMenuItem.BackColor = Color.FromArgb(76, 74, 76);
-            calculadoraIMCToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { conversorºCToolStripMenuItem, conversorDeMoedasToolStripMenuItem, conversorDeTemperaturaToolStripMenuItem, regraDeTrêsToolStripMenuItem, sAIRToolStripMenuItem });
+            calculadoraIMCToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { conversorºCToolStripMenuItem, iMCToolStripMenuItem, conversorDeMoedasToolStripMenuItem, conversorDeTemperaturaToolStripMenuItem, regraDeTrêsToolStripMenuItem, sAIRToolStripMenuItem });
             calculadoraIMCToolStripMenuItem.Name = "calculadoraIMCToolStripMenuItem";
             calculadoraIMCToolStripMenuItem.Size = new Size(50, 20);
             calculadoraIMCToolStripMenuItem.Text = "Menu";
@@ -490,6 +491,14 @@
             sAIRToolStripMenuItem.Size = new Size(212, 22);
             sAIRToolStripMenuItem.Text = "Sair";
             sAIRToolStripMenuItem.Click += sAIRToolStripMenuItem_Click;
+            // 
+            // iMCToolStripMenuItem
+            // 
+            iMCToolStripMenuItem.BackColor = Color.FromArgb(76, 74, 76);
+            iMCToolStripMenuItem.ForeColor = Color.White;
+            iMCToolStripMenuItem.Name = "iMCToolStripMenuItem";
+            iMCToolStripMenuItem.Size = new Size(212, 22);
+            iMCToolStripMenuItem.Text = "IMC";
             // 
             // FormIMC
             // 
@@ -555,5 +564,6 @@
         private ToolStripMenuItem conversorDeTemperaturaToolStripMenuItem;
         private ToolStripMenuItem regraDeTrêsToolStripMenuItem;
         private ToolStripMenuItem sAIRToolStripMenuItem;
+        private ToolStripMenuItem iMCToolStripMenuItem;
     }
 }
