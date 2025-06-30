@@ -51,6 +51,7 @@
             btnInverter = new Button();
             mnsMenu = new MenuStrip();
             FormCalculadora = new ToolStripMenuItem();
+            calculadoraToolStripMenuItem = new ToolStripMenuItem();
             conversorºCToolStripMenuItem = new ToolStripMenuItem();
             conversorDeMoedasToolStripMenuItem = new ToolStripMenuItem();
             conversorDeTemperaturaToolStripMenuItem = new ToolStripMenuItem();
@@ -456,10 +457,18 @@
             // FormCalculadora
             // 
             FormCalculadora.BackColor = Color.FromArgb(76, 74, 76);
-            FormCalculadora.DropDownItems.AddRange(new ToolStripItem[] { conversorºCToolStripMenuItem, conversorDeMoedasToolStripMenuItem, conversorDeTemperaturaToolStripMenuItem, regraDeTrêsToolStripMenuItem, sAIRToolStripMenuItem });
+            FormCalculadora.DropDownItems.AddRange(new ToolStripItem[] { calculadoraToolStripMenuItem, conversorºCToolStripMenuItem, conversorDeMoedasToolStripMenuItem, conversorDeTemperaturaToolStripMenuItem, regraDeTrêsToolStripMenuItem, sAIRToolStripMenuItem });
             FormCalculadora.Name = "FormCalculadora";
             FormCalculadora.Size = new Size(50, 20);
             FormCalculadora.Text = "Menu";
+            // 
+            // calculadoraToolStripMenuItem
+            // 
+            calculadoraToolStripMenuItem.BackColor = Color.FromArgb(76, 74, 76);
+            calculadoraToolStripMenuItem.ForeColor = Color.White;
+            calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
+            calculadoraToolStripMenuItem.Size = new Size(212, 22);
+            calculadoraToolStripMenuItem.Text = "Calculadora";
             // 
             // conversorºCToolStripMenuItem
             // 
@@ -622,5 +631,6 @@
         private TableLayoutPanel tableLayoutPanel1;
         private Label lblAuxiliar;
         private ToolStripMenuItem sAIRToolStripMenuItem;
+        private ToolStripMenuItem calculadoraToolStripMenuItem;
     }
 }
