@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|c:\\users\\victor.ezaki\\documents\\repos\\projeto_final_calculadora\\calculator_final\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|solutionrelative:form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|c:\\users\\victor.ezaki\\documents\\repos\\projeto_final_calculadora\\calculator_final\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|c:\\users\\victor.ezaki\\documents\\repos\\projeto_final_calculadora\\calculator_final\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,26 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|c:\\users\\victor.ezaki\\documents\\repos\\projeto_final_calculadora\\calculator_final\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|solutionrelative:form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|c:\\users\\victor.ezaki\\documents\\repos\\projeto_final_calculadora\\calculator_final\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|c:\\users\\victor.ezaki\\documents\\repos\\projeto_final_calculadora\\calculator_final\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|c:\\users\\victor.ezaki\\documents\\repos\\projeto_final_calculadora\\calculator_final\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|solutionrelative:form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F4FD4B2-F6FA-4E87-8C0A-AB6515E492A7}|calculator_final.csproj|c:\\users\\victor.ezaki\\documents\\repos\\projeto_final_calculadora\\calculator_final\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Form2.Designer.cs",
               "DocumentMoniker": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\Form2.Designer.cs",
               "RelativeDocumentMoniker": "Form2.Designer.cs",
@@ -70,12 +70,11 @@
               "RelativeToolTip": "Form2.Designer.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAqwBsCAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T23:49:22.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T23:49:22.433Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Form4.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\Form4.cs",
               "RelativeDocumentMoniker": "Form4.cs",
@@ -87,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Form4.Designer.cs",
               "DocumentMoniker": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\Form4.Designer.cs",
               "RelativeDocumentMoniker": "Form4.Designer.cs",
@@ -100,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -108,12 +107,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T19:03:10.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T19:03:10.169Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Form4.cs",
               "DocumentMoniker": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\Form4.cs",
               "RelativeDocumentMoniker": "Form4.cs",
@@ -139,18 +137,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Form5.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "Form5.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\Form5.cs",
               "RelativeDocumentMoniker": "Form5.cs",
-              "ToolTip": "C:\\Users\\Victo\\repos\\projeto_final_calculadora\\calculator_final\\Form5.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Victo\\repos\\projeto_final_calculadora\\calculator_final\\Form5.cs [Design]",
+              "ToolTip": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\Form5.cs [Projeto]",
+              "RelativeToolTip": "Form5.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T16:25:29.799Z"
+              "WhenOpened": "2025-06-29T16:25:29.799Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Form3.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\Form3.cs",
               "RelativeDocumentMoniker": "Form3.cs",
@@ -162,28 +161,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
               "ToolTip": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\Form2.cs",
               "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAtwCkAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T00:21:38.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Form2.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
               "ToolTip": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\Form2.cs [Projeto]",
               "RelativeToolTip": "Form2.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T22:53:52.019Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-06-26T22:53:52.019Z"
             },
             {
               "$type": "Document",
