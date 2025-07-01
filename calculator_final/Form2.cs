@@ -16,6 +16,7 @@ namespace calculator_final
         public FormIMC()
         {
             InitializeComponent();
+            inpAltura.Text = "";
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
@@ -27,13 +28,13 @@ namespace calculator_final
         {
             try
             {
-                float peso, altura, result;
+                float peso, altura, result = 0;
                 string pesoFormat;
 
                 var culture = new CultureInfo("pt-BR");
 
                 pesoFormat = inpPeso.Text;
-                pesoFormat = pesoFormat.Replace(".", ",");
+                pesoFormat = pesoFormat.Replace(",", ".");
                 peso = float.Parse(pesoFormat, culture);
                 altura = float.Parse(inpAltura.Text, culture);
 

@@ -59,11 +59,11 @@
             mnsMenu = new MenuStrip();
             calculadoraIMCToolStripMenuItem = new ToolStripMenuItem();
             conversorºCToolStripMenuItem = new ToolStripMenuItem();
+            iMCToolStripMenuItem = new ToolStripMenuItem();
             conversorDeMoedasToolStripMenuItem = new ToolStripMenuItem();
             conversorDeTemperaturaToolStripMenuItem = new ToolStripMenuItem();
             regraDeTrêsToolStripMenuItem = new ToolStripMenuItem();
             sAIRToolStripMenuItem = new ToolStripMenuItem();
-            iMCToolStripMenuItem = new ToolStripMenuItem();
             tableLayoutPanel1.SuspendLayout();
             mnsMenu.SuspendLayout();
             SuspendLayout();
@@ -159,10 +159,11 @@
             // 
             inpAltura.Font = new Font("Segoe UI", 16F);
             inpAltura.Location = new Point(265, 73);
-            inpAltura.Mask = "0,00";
+            inpAltura.Mask = "0.00";
             inpAltura.Name = "inpAltura";
             inpAltura.Size = new Size(132, 36);
             inpAltura.TabIndex = 1;
+            inpAltura.ValidatingType = typeof(DateTime);
             inpAltura.MaskInputRejected += maskedTextBox1_MaskInputRejected;
             inpAltura.KeyDown += inpAltura_KeyDown;
             inpAltura.KeyPress += inpAltura_KeyPress;
@@ -459,6 +460,14 @@
             conversorºCToolStripMenuItem.Text = "Calculadora";
             conversorºCToolStripMenuItem.Click += conversorºCToolStripMenuItem_Click;
             // 
+            // iMCToolStripMenuItem
+            // 
+            iMCToolStripMenuItem.BackColor = Color.FromArgb(76, 74, 76);
+            iMCToolStripMenuItem.ForeColor = Color.White;
+            iMCToolStripMenuItem.Name = "iMCToolStripMenuItem";
+            iMCToolStripMenuItem.Size = new Size(212, 22);
+            iMCToolStripMenuItem.Text = "IMC";
+            // 
             // conversorDeMoedasToolStripMenuItem
             // 
             conversorDeMoedasToolStripMenuItem.BackColor = Color.FromArgb(76, 74, 76);
@@ -491,14 +500,6 @@
             sAIRToolStripMenuItem.Size = new Size(212, 22);
             sAIRToolStripMenuItem.Text = "Sair";
             sAIRToolStripMenuItem.Click += sAIRToolStripMenuItem_Click;
-            // 
-            // iMCToolStripMenuItem
-            // 
-            iMCToolStripMenuItem.BackColor = Color.FromArgb(76, 74, 76);
-            iMCToolStripMenuItem.ForeColor = Color.White;
-            iMCToolStripMenuItem.Name = "iMCToolStripMenuItem";
-            iMCToolStripMenuItem.Size = new Size(212, 22);
-            iMCToolStripMenuItem.Text = "IMC";
             // 
             // FormIMC
             // 
