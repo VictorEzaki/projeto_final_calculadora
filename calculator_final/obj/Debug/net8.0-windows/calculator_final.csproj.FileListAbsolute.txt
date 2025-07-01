@@ -49,7 +49,6 @@ C:\Users\victor.ezaki\Documents\repos\projeto_final_calculadora\calculator_final
 C:\Users\victor.ezaki\Documents\repos\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.genruntimeconfig.cache
 C:\Users\victor.ezaki\Documents\repos\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\ref\calculator_final.dll
 C:\Users\victor.ezaki\Documents\repos\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.Properties.Resources.resources
-C:\Users\victor.ezaki\Documents\repos\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.Form2.resources
 C:\Users\Victo\repos\projeto_final_calculadora\calculator_final\bin\Debug\net8.0-windows\calculator_final.exe
 C:\Users\Victo\repos\projeto_final_calculadora\calculator_final\bin\Debug\net8.0-windows\calculator_final.deps.json
 C:\Users\Victo\repos\projeto_final_calculadora\calculator_final\bin\Debug\net8.0-windows\calculator_final.runtimeconfig.json
@@ -72,3 +71,7 @@ C:\Users\Victo\repos\projeto_final_calculadora\calculator_final\obj\Debug\net8.0
 C:\Users\Victo\repos\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.FormConversorMoedas.resources
 C:\Users\Victo\repos\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.FormConversorTemp.resources
 C:\Users\Victo\repos\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.FormRegraTres.resources
+C:\Users\victor.ezaki\Documents\repos\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.FormIMC.resources
+C:\Users\victor.ezaki\Documents\repos\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.FormConversorMoedas.resources
+C:\Users\victor.ezaki\Documents\repos\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.FormConversorTemp.resources
+C:\Users\victor.ezaki\Documents\repos\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.FormRegraTres.resources
