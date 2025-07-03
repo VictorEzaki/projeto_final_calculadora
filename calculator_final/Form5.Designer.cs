@@ -36,7 +36,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Name = "FormRegraTres";
-            Text = "Form5";
+            Text = "Regra de três";
             ResumeLayout(false);
         }
 

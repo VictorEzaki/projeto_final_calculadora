@@ -589,7 +589,7 @@
             Controls.Add(mnsMenu);
             MainMenuStrip = mnsMenu;
             Name = "Form1";
-            Text = "Form1";
+            Text = "Calculadora";
             Load += Form1_Load;
             mnsMenu.ResumeLayout(false);
             mnsMenu.PerformLayout();

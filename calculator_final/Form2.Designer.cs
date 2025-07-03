@@ -520,7 +520,7 @@
             Controls.Add(lblPeso);
             Controls.Add(inpPeso);
             Name = "FormIMC";
-            Text = "Form2";
+            Text = "IMC";
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
             mnsMenu.ResumeLayout(false);
