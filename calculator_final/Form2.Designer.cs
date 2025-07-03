@@ -475,6 +475,7 @@
             conversorDeMoedasToolStripMenuItem.Name = "conversorDeMoedasToolStripMenuItem";
             conversorDeMoedasToolStripMenuItem.Size = new Size(212, 22);
             conversorDeMoedasToolStripMenuItem.Text = "Conversor de moedas";
+            conversorDeMoedasToolStripMenuItem.Click += conversorDeMoedasToolStripMenuItem_Click;
             // 
             // conversorDeTemperaturaToolStripMenuItem
             // 
@@ -483,6 +484,7 @@
             conversorDeTemperaturaToolStripMenuItem.Name = "conversorDeTemperaturaToolStripMenuItem";
             conversorDeTemperaturaToolStripMenuItem.Size = new Size(212, 22);
             conversorDeTemperaturaToolStripMenuItem.Text = "Conversor de temperatura";
+            conversorDeTemperaturaToolStripMenuItem.Click += conversorDeTemperaturaToolStripMenuItem_Click;
             // 
             // regraDeTrêsToolStripMenuItem
             // 
@@ -491,6 +493,7 @@
             regraDeTrêsToolStripMenuItem.Name = "regraDeTrêsToolStripMenuItem";
             regraDeTrêsToolStripMenuItem.Size = new Size(212, 22);
             regraDeTrêsToolStripMenuItem.Text = "Regra de três";
+            regraDeTrêsToolStripMenuItem.Click += regraDeTrêsToolStripMenuItem_Click;
             // 
             // sAIRToolStripMenuItem
             // 
@@ -520,6 +523,7 @@
             Controls.Add(lblPeso);
             Controls.Add(inpPeso);
             Name = "FormIMC";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "IMC";
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();

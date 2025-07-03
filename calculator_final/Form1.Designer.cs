@@ -589,6 +589,7 @@
             Controls.Add(mnsMenu);
             MainMenuStrip = mnsMenu;
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Calculadora";
             Load += Form1_Load;
             mnsMenu.ResumeLayout(false);

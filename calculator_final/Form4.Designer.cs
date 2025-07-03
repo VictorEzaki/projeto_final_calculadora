@@ -224,6 +224,7 @@
             Controls.Add(slcTemp2);
             Controls.Add(slcTemp1);
             Name = "FormConversorTemp";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form4";
             mnsMenu.ResumeLayout(false);
             mnsMenu.PerformLayout();

@@ -194,6 +194,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(51, 51, 51);
             ClientSize = new Size(800, 450);
+            ControlBox = false;
             Controls.Add(btnCalcular);
             Controls.Add(inpMoeda2);
             Controls.Add(lblCharEqual);
@@ -202,6 +203,7 @@
             Controls.Add(slcMoeda1);
             Controls.Add(mnsMenu);
             Name = "FormConversorMoedas";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Conversor de Moedas";
             mnsMenu.ResumeLayout(false);
             mnsMenu.PerformLayout();

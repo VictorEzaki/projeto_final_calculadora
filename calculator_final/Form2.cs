@@ -166,5 +166,26 @@ namespace calculator_final
             Hide();
             form1.ShowDialog();
         }
+
+        private void conversorDeMoedasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormConversorMoedas formConversorMoedas = new FormConversorMoedas();
+            Hide();
+            formConversorMoedas.ShowDialog();
+        }
+
+        private void conversorDeTemperaturaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormConversorTemp formConversorTemp = new FormConversorTemp();
+            Hide();
+            formConversorTemp.ShowDialog();
+        }
+
+        private void regraDeTrêsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormRegraTres formRegraTres = new FormRegraTres();
+            Hide();
+            formRegraTres.ShowDialog();
+        }
     }
 }

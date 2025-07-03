@@ -36,6 +36,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Name = "FormRegraTres";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Regra de três";
             ResumeLayout(false);
         }
