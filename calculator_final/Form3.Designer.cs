@@ -156,7 +156,7 @@
             slcMoeda2.DropDownStyle = ComboBoxStyle.DropDownList;
             slcMoeda2.Font = new Font("Segoe UI", 16F);
             slcMoeda2.FormattingEnabled = true;
-            slcMoeda2.Items.AddRange(new object[] { "Real", "Dólar americano", "Euro", "Dólar Canadense" });
+            slcMoeda2.Items.AddRange(new object[] { "BRL", "USD", "EUR", "CAD" });
             slcMoeda2.Location = new Point(437, 180);
             slcMoeda2.Name = "slcMoeda2";
             slcMoeda2.Size = new Size(180, 38);
@@ -167,7 +167,7 @@
             slcMoeda1.DropDownStyle = ComboBoxStyle.DropDownList;
             slcMoeda1.Font = new Font("Segoe UI", 16F);
             slcMoeda1.FormattingEnabled = true;
-            slcMoeda1.Items.AddRange(new object[] { "Real", "Dólar americano", "Euro", "Dólar Canadense" });
+            slcMoeda1.Items.AddRange(new object[] { "BRL", "USD", "EUR", "CAD" });
             slcMoeda1.Location = new Point(184, 180);
             slcMoeda1.Name = "slcMoeda1";
             slcMoeda1.Size = new Size(180, 38);
