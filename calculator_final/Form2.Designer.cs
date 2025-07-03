@@ -175,7 +175,9 @@
             inpPeso.Name = "inpPeso";
             inpPeso.Size = new Size(134, 36);
             inpPeso.TabIndex = 0;
+            inpPeso.TextChanged += inpPeso_TextChanged;
             inpPeso.KeyDown += inpPeso_KeyDown;
+            inpPeso.KeyPress += inpPeso_KeyPress;
             // 
             // tableLayoutPanel1
             // 

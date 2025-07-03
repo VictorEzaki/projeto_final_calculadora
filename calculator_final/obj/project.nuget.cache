@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zZi606gf2U0=",
+  "dgSpecHash": "ICkn1o/1sIE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Victo\\repos\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj",
+  "projectFilePath": "C:\\Users\\soft4\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Victo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\soft4\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

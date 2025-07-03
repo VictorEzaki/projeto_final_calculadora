@@ -50,7 +50,8 @@ namespace calculator_final
                     {
                         string response = await client.GetStringAsync(url);
                         dynamic resultado = JsonConvert.DeserializeObject(response);
-                        decimal cotacao = Convert.ToDecimal(resultado[parammetter].bid.ToString());
+                        decimal cotacao = Convert.ToDecimal(resultado[parammetter].bid.ToString(), CultureInfo.InvariantCulture);
+
 
                         decimal valorEmReal = Convert.ToDecimal(inpMoeda1.Text);
                         decimal valorEmDolar = valorEmReal / cotacao;
