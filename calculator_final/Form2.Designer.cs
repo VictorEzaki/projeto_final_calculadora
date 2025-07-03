@@ -175,7 +175,9 @@
             inpPeso.Name = "inpPeso";
             inpPeso.Size = new Size(134, 36);
             inpPeso.TabIndex = 0;
+            inpPeso.TextChanged += inpPeso_TextChanged;
             inpPeso.KeyDown += inpPeso_KeyDown;
+            inpPeso.KeyPress += inpPeso_KeyPress;
             // 
             // tableLayoutPanel1
             // 
@@ -475,6 +477,7 @@
             conversorDeMoedasToolStripMenuItem.Name = "conversorDeMoedasToolStripMenuItem";
             conversorDeMoedasToolStripMenuItem.Size = new Size(212, 22);
             conversorDeMoedasToolStripMenuItem.Text = "Conversor de moedas";
+            conversorDeMoedasToolStripMenuItem.Click += conversorDeMoedasToolStripMenuItem_Click;
             // 
             // conversorDeTemperaturaToolStripMenuItem
             // 
@@ -483,6 +486,7 @@
             conversorDeTemperaturaToolStripMenuItem.Name = "conversorDeTemperaturaToolStripMenuItem";
             conversorDeTemperaturaToolStripMenuItem.Size = new Size(212, 22);
             conversorDeTemperaturaToolStripMenuItem.Text = "Conversor de temperatura";
+            conversorDeTemperaturaToolStripMenuItem.Click += conversorDeTemperaturaToolStripMenuItem_Click;
             // 
             // regraDeTrêsToolStripMenuItem
             // 
@@ -491,6 +495,7 @@
             regraDeTrêsToolStripMenuItem.Name = "regraDeTrêsToolStripMenuItem";
             regraDeTrêsToolStripMenuItem.Size = new Size(212, 22);
             regraDeTrêsToolStripMenuItem.Text = "Regra de três";
+            regraDeTrêsToolStripMenuItem.Click += regraDeTrêsToolStripMenuItem_Click;
             // 
             // sAIRToolStripMenuItem
             // 
@@ -520,7 +525,8 @@
             Controls.Add(lblPeso);
             Controls.Add(inpPeso);
             Name = "FormIMC";
-            Text = "Form2";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "IMC";
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
             mnsMenu.ResumeLayout(false);

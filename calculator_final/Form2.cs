@@ -34,7 +34,6 @@ namespace calculator_final
                 var culture = new CultureInfo("pt-BR");
 
                 pesoFormat = inpPeso.Text;
-                pesoFormat = pesoFormat.Replace(",", ".");
                 peso = float.Parse(pesoFormat, culture);
                 altura = float.Parse(inpAltura.Text, culture);
 
@@ -165,6 +164,40 @@ namespace calculator_final
             Form1 form1 = new Form1();
             Hide();
             form1.ShowDialog();
+        }
+
+        private void conversorDeMoedasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormConversorMoedas formConversorMoedas = new FormConversorMoedas();
+            Hide();
+            formConversorMoedas.ShowDialog();
+        }
+
+        private void conversorDeTemperaturaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormConversorTemp formConversorTemp = new FormConversorTemp();
+            Hide();
+            formConversorTemp.ShowDialog();
+        }
+
+        private void regraDeTrêsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormRegraTres formRegraTres = new FormRegraTres();
+            Hide();
+            formRegraTres.ShowDialog();
+        }
+
+        private void inpPeso_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void inpPeso_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != ',' && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true; // bloqueia qualquer outro caractere
+            }
         }
     }
 }
