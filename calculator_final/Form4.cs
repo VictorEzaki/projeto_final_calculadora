@@ -117,5 +117,10 @@ namespace calculator_final
             {
             }
         }
+
+        private void slcTemp1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

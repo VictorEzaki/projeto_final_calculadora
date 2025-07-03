@@ -75,3 +75,11 @@ C:\Users\victor.ezaki\Documents\repos\projeto_final_calculadora\calculator_final
 C:\Users\victor.ezaki\Documents\repos\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.FormConversorMoedas.resources
 C:\Users\victor.ezaki\Documents\repos\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.FormConversorTemp.resources
 C:\Users\victor.ezaki\Documents\repos\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.FormRegraTres.resources
+C:\Users\victor.ezaki\Documents\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.FormIMC.resources
+C:\Users\victor.ezaki\Documents\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.FormConversorMoedas.resources
+C:\Users\victor.ezaki\Documents\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.FormConversorTemp.resources
+C:\Users\victor.ezaki\Documents\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.FormRegraTres.resources
+C:\Users\victor.ezaki\Documents\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.Properties.Resources.resources
+C:\Users\victor.ezaki\Documents\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculator_final.csproj.AssemblyReference.cache
+C:\Users\victor.ezaki\Documents\projeto_final_calculadora\calculator_final\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\victor.ezaki\Documents\projeto_final_calculadora\calculator_final\obj\Debug\net8.0-windows\calculat.97BFD39F.Up2Date

@@ -43,6 +43,7 @@
             lblFormulaText = new Label();
             lblFormula = new Label();
             inpTemp2 = new TextBox();
+            lblFormula2 = new Label();
             mnsMenu.SuspendLayout();
             SuspendLayout();
             // 
@@ -56,6 +57,7 @@
             slcTemp1.Name = "slcTemp1";
             slcTemp1.Size = new Size(180, 38);
             slcTemp1.TabIndex = 22;
+            slcTemp1.SelectedIndexChanged += slcTemp1_SelectedIndexChanged;
             // 
             // slcTemp2
             // 
@@ -195,6 +197,16 @@
             inpTemp2.Size = new Size(180, 36);
             inpTemp2.TabIndex = 30;
             // 
+            // lblFormula2
+            // 
+            lblFormula2.AutoSize = true;
+            lblFormula2.Font = new Font("Segoe UI", 16F);
+            lblFormula2.ForeColor = Color.White;
+            lblFormula2.Location = new Point(293, 307);
+            lblFormula2.Name = "lblFormula2";
+            lblFormula2.Size = new Size(0, 30);
+            lblFormula2.TabIndex = 31;
+            // 
             // FormConversorTemp
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -202,6 +214,7 @@
             BackColor = Color.FromArgb(51, 51, 51);
             ClientSize = new Size(800, 450);
             ControlBox = false;
+            Controls.Add(lblFormula2);
             Controls.Add(inpTemp2);
             Controls.Add(lblFormula);
             Controls.Add(lblFormulaText);
@@ -234,5 +247,6 @@
         private Label lblFormulaText;
         private Label lblFormula;
         private TextBox inpTemp2;
+        private Label lblFormula2;
     }
 }
