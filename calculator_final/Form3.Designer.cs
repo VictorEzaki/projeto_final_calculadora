@@ -178,13 +178,13 @@
             btnCalcular.BackColor = Color.FromArgb(40, 167, 69);
             btnCalcular.FlatAppearance.BorderSize = 0;
             btnCalcular.FlatStyle = FlatStyle.Flat;
-            btnCalcular.Font = new Font("Segoe UI", 14F);
+            btnCalcular.Font = new Font("Segoe UI", 12F);
             btnCalcular.ForeColor = Color.White;
             btnCalcular.Location = new Point(310, 264);
             btnCalcular.Name = "btnCalcular";
             btnCalcular.Size = new Size(180, 39);
             btnCalcular.TabIndex = 39;
-            btnCalcular.Text = "Cotar";
+            btnCalcular.Text = "COTAR";
             btnCalcular.UseVisualStyleBackColor = false;
             btnCalcular.Click += btnCalcular_Click;
             // 
