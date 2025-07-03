@@ -41,9 +41,6 @@
             inpMoeda1 = new TextBox();
             slcMoeda2 = new ComboBox();
             slcMoeda1 = new ComboBox();
-            lblFormula = new Label();
-            lblFormulaText = new Label();
-            lblFormula1 = new Label();
             btnCalcular = new Button();
             mnsMenu.SuspendLayout();
             SuspendLayout();
@@ -73,6 +70,7 @@
             conversorºCToolStripMenuItem.Name = "conversorºCToolStripMenuItem";
             conversorºCToolStripMenuItem.Size = new Size(212, 22);
             conversorºCToolStripMenuItem.Text = "Calculadora";
+            conversorºCToolStripMenuItem.Click += conversorºCToolStripMenuItem_Click;
             // 
             // iMCToolStripMenuItem
             // 
@@ -81,6 +79,7 @@
             iMCToolStripMenuItem.Name = "iMCToolStripMenuItem";
             iMCToolStripMenuItem.Size = new Size(212, 22);
             iMCToolStripMenuItem.Text = "IMC";
+            iMCToolStripMenuItem.Click += iMCToolStripMenuItem_Click;
             // 
             // conversorDeMoedasToolStripMenuItem
             // 
@@ -98,6 +97,7 @@
             conversorDeTemperaturaToolStripMenuItem.Name = "conversorDeTemperaturaToolStripMenuItem";
             conversorDeTemperaturaToolStripMenuItem.Size = new Size(212, 22);
             conversorDeTemperaturaToolStripMenuItem.Text = "Conversor de temperatura";
+            conversorDeTemperaturaToolStripMenuItem.Click += conversorDeTemperaturaToolStripMenuItem_Click;
             // 
             // regraDeTrêsToolStripMenuItem
             // 
@@ -106,6 +106,7 @@
             regraDeTrêsToolStripMenuItem.Name = "regraDeTrêsToolStripMenuItem";
             regraDeTrêsToolStripMenuItem.Size = new Size(212, 22);
             regraDeTrêsToolStripMenuItem.Text = "Regra de três";
+            regraDeTrêsToolStripMenuItem.Click += regraDeTrêsToolStripMenuItem_Click;
             // 
             // sAIRToolStripMenuItem
             // 
@@ -114,6 +115,7 @@
             sAIRToolStripMenuItem.Name = "sAIRToolStripMenuItem";
             sAIRToolStripMenuItem.Size = new Size(212, 22);
             sAIRToolStripMenuItem.Text = "Sair";
+            sAIRToolStripMenuItem.Click += sAIRToolStripMenuItem_Click;
             // 
             // inpMoeda2
             // 
@@ -121,7 +123,7 @@
             inpMoeda2.BorderStyle = BorderStyle.FixedSingle;
             inpMoeda2.Font = new Font("Segoe UI", 16F);
             inpMoeda2.ForeColor = Color.White;
-            inpMoeda2.Location = new Point(437, 161);
+            inpMoeda2.Location = new Point(437, 147);
             inpMoeda2.Name = "inpMoeda2";
             inpMoeda2.ReadOnly = true;
             inpMoeda2.Size = new Size(180, 36);
@@ -131,7 +133,7 @@
             // 
             lblCharEqual.AutoSize = true;
             lblCharEqual.Font = new Font("Segoe UI", 20F);
-            lblCharEqual.Location = new Point(384, 175);
+            lblCharEqual.Location = new Point(384, 161);
             lblCharEqual.Name = "lblCharEqual";
             lblCharEqual.Size = new Size(35, 37);
             lblCharEqual.TabIndex = 34;
@@ -143,7 +145,7 @@
             inpMoeda1.BorderStyle = BorderStyle.FixedSingle;
             inpMoeda1.Font = new Font("Segoe UI", 16F);
             inpMoeda1.ForeColor = Color.White;
-            inpMoeda1.Location = new Point(184, 161);
+            inpMoeda1.Location = new Point(184, 147);
             inpMoeda1.Name = "inpMoeda1";
             inpMoeda1.Size = new Size(180, 36);
             inpMoeda1.TabIndex = 33;
@@ -154,8 +156,8 @@
             slcMoeda2.DropDownStyle = ComboBoxStyle.DropDownList;
             slcMoeda2.Font = new Font("Segoe UI", 16F);
             slcMoeda2.FormattingEnabled = true;
-            slcMoeda2.Items.AddRange(new object[] { "Real", "Dólar americano", "Euro", "Dólar Canadense", "Pesos" });
-            slcMoeda2.Location = new Point(437, 194);
+            slcMoeda2.Items.AddRange(new object[] { "Real", "Dólar americano", "Euro", "Dólar Canadense" });
+            slcMoeda2.Location = new Point(437, 180);
             slcMoeda2.Name = "slcMoeda2";
             slcMoeda2.Size = new Size(180, 38);
             slcMoeda2.TabIndex = 32;
@@ -166,52 +168,24 @@
             slcMoeda1.Font = new Font("Segoe UI", 16F);
             slcMoeda1.FormattingEnabled = true;
             slcMoeda1.Items.AddRange(new object[] { "Real", "Dólar americano", "Euro", "Dólar Canadense" });
-            slcMoeda1.Location = new Point(184, 194);
+            slcMoeda1.Location = new Point(184, 180);
             slcMoeda1.Name = "slcMoeda1";
             slcMoeda1.Size = new Size(180, 38);
             slcMoeda1.TabIndex = 31;
             // 
-            // lblFormula
-            // 
-            lblFormula.AutoSize = true;
-            lblFormula.Font = new Font("Segoe UI", 16F);
-            lblFormula.ForeColor = Color.White;
-            lblFormula.Location = new Point(293, 260);
-            lblFormula.Name = "lblFormula";
-            lblFormula.Size = new Size(0, 30);
-            lblFormula.TabIndex = 37;
-            // 
-            // lblFormulaText
-            // 
-            lblFormulaText.AutoSize = true;
-            lblFormulaText.BackColor = Color.FromArgb(244, 191, 0);
-            lblFormulaText.Font = new Font("Segoe UI", 16F);
-            lblFormulaText.ForeColor = Color.FromArgb(36, 26, 0);
-            lblFormulaText.Location = new Point(184, 260);
-            lblFormulaText.Name = "lblFormulaText";
-            lblFormulaText.Size = new Size(92, 30);
-            lblFormulaText.TabIndex = 36;
-            lblFormulaText.Text = "Fórmula";
-            // 
-            // lblFormula1
-            // 
-            lblFormula1.AutoSize = true;
-            lblFormula1.Font = new Font("Segoe UI", 16F);
-            lblFormula1.ForeColor = Color.White;
-            lblFormula1.Location = new Point(293, 305);
-            lblFormula1.Name = "lblFormula1";
-            lblFormula1.Size = new Size(0, 30);
-            lblFormula1.TabIndex = 38;
-            // 
             // btnCalcular
             // 
+            btnCalcular.BackColor = Color.FromArgb(40, 167, 69);
+            btnCalcular.FlatAppearance.BorderSize = 0;
+            btnCalcular.FlatStyle = FlatStyle.Flat;
             btnCalcular.Font = new Font("Segoe UI", 14F);
-            btnCalcular.Location = new Point(437, 251);
+            btnCalcular.ForeColor = Color.White;
+            btnCalcular.Location = new Point(310, 264);
             btnCalcular.Name = "btnCalcular";
             btnCalcular.Size = new Size(180, 39);
             btnCalcular.TabIndex = 39;
             btnCalcular.Text = "Cotar";
-            btnCalcular.UseVisualStyleBackColor = true;
+            btnCalcular.UseVisualStyleBackColor = false;
             btnCalcular.Click += btnCalcular_Click;
             // 
             // FormConversorMoedas
@@ -221,9 +195,6 @@
             BackColor = Color.FromArgb(51, 51, 51);
             ClientSize = new Size(800, 450);
             Controls.Add(btnCalcular);
-            Controls.Add(lblFormula1);
-            Controls.Add(lblFormula);
-            Controls.Add(lblFormulaText);
             Controls.Add(inpMoeda2);
             Controls.Add(lblCharEqual);
             Controls.Add(inpMoeda1);
@@ -253,9 +224,6 @@
         private TextBox inpMoeda1;
         private ComboBox slcMoeda2;
         private ComboBox slcMoeda1;
-        private Label lblFormula;
-        private Label lblFormulaText;
-        private Label lblFormula1;
         private Button btnCalcular;
     }
 }

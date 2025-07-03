@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victor.ezaki\\Documents\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj": {}
+    "C:\\Users\\Victo\\repos\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victor.ezaki\\Documents\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj": {
+    "C:\\Users\\Victo\\repos\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victor.ezaki\\Documents\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj",
+        "projectUniqueName": "C:\\Users\\Victo\\repos\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj",
         "projectName": "calculator_final",
-        "projectPath": "C:\\Users\\victor.ezaki\\Documents\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj",
-        "packagesPath": "C:\\Users\\victor.ezaki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victor.ezaki\\Documents\\projeto_final_calculadora\\calculator_final\\obj\\",
+        "projectPath": "C:\\Users\\Victo\\repos\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj",
+        "packagesPath": "C:\\Users\\Victo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Victo\\repos\\projeto_final_calculadora\\calculator_final\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\victor.ezaki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -75,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
