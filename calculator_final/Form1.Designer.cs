@@ -49,7 +49,7 @@
             btnDecimal = new Button();
             btnZero = new Button();
             btnInverter = new Button();
-            mnsMenu = new MenuStrip();
+            btnMenu = new MenuStrip();
             FormCalculadora = new ToolStripMenuItem();
             calculadoraToolStripMenuItem = new ToolStripMenuItem();
             conversorºCToolStripMenuItem = new ToolStripMenuItem();
@@ -60,7 +60,8 @@
             lblResult = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
             lblAuxiliar = new Label();
-            mnsMenu.SuspendLayout();
+            btnHistory = new Button();
+            btnMenu.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -444,23 +445,25 @@
             btnInverter.UseVisualStyleBackColor = false;
             btnInverter.Click += btnInverter_Click;
             // 
-            // mnsMenu
+            // btnMenu
             // 
-            mnsMenu.BackColor = Color.Transparent;
-            mnsMenu.Items.AddRange(new ToolStripItem[] { FormCalculadora });
-            mnsMenu.Location = new Point(0, 0);
-            mnsMenu.Name = "mnsMenu";
-            mnsMenu.Size = new Size(294, 24);
-            mnsMenu.TabIndex = 20;
-            mnsMenu.Text = "menuStrip1";
+            btnMenu.BackColor = Color.Transparent;
+            btnMenu.Dock = DockStyle.Left;
+            btnMenu.Items.AddRange(new ToolStripItem[] { FormCalculadora });
+            btnMenu.Location = new Point(0, 0);
+            btnMenu.Name = "btnMenu";
+            btnMenu.Size = new Size(56, 512);
+            btnMenu.TabIndex = 20;
+            btnMenu.Text = "menuStrip1";
             // 
             // FormCalculadora
             // 
             FormCalculadora.BackColor = Color.FromArgb(76, 74, 76);
             FormCalculadora.DropDownItems.AddRange(new ToolStripItem[] { calculadoraToolStripMenuItem, conversorºCToolStripMenuItem, conversorDeMoedasToolStripMenuItem, conversorDeTemperaturaToolStripMenuItem, regraDeTrêsToolStripMenuItem, sAIRToolStripMenuItem });
             FormCalculadora.Name = "FormCalculadora";
-            FormCalculadora.Size = new Size(50, 20);
+            FormCalculadora.Size = new Size(43, 19);
             FormCalculadora.Text = "Menu";
+            FormCalculadora.Click += FormCalculadora_Click;
             // 
             // calculadoraToolStripMenuItem
             // 
@@ -558,6 +561,19 @@
             lblAuxiliar.Size = new Size(0, 15);
             lblAuxiliar.TabIndex = 23;
             // 
+            // btnHistory
+            // 
+            btnHistory.BackColor = Color.Transparent;
+            btnHistory.BackgroundImage = (Image)resources.GetObject("btnHistory.BackgroundImage");
+            btnHistory.FlatAppearance.BorderSize = 0;
+            btnHistory.FlatStyle = FlatStyle.Flat;
+            btnHistory.Location = new Point(265, 12);
+            btnHistory.Name = "btnHistory";
+            btnHistory.Size = new Size(16, 16);
+            btnHistory.TabIndex = 23;
+            btnHistory.UseVisualStyleBackColor = false;
+            btnHistory.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -565,6 +581,7 @@
             BackColor = Color.FromArgb(51, 51, 51);
             ClientSize = new Size(294, 512);
             ControlBox = false;
+            Controls.Add(btnHistory);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(btnIgual);
             Controls.Add(btnDecimal);
@@ -586,14 +603,14 @@
             Controls.Add(btnClearAll);
             Controls.Add(btnDiv);
             Controls.Add(btnPorcent);
-            Controls.Add(mnsMenu);
-            MainMenuStrip = mnsMenu;
+            Controls.Add(btnMenu);
+            MainMenuStrip = btnMenu;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Calculadora";
             Load += Form1_Load;
-            mnsMenu.ResumeLayout(false);
-            mnsMenu.PerformLayout();
+            btnMenu.ResumeLayout(false);
+            btnMenu.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
             ResumeLayout(false);
@@ -622,7 +639,7 @@
         private Button btnDecimal;
         private Button btnZero;
         private Button btnInverter;
-        private MenuStrip mnsMenu;
+        private MenuStrip btnMenu;
         private ToolStripMenuItem FormCalculadora;
         private ToolStripMenuItem conversorºCToolStripMenuItem;
         private ToolStripMenuItem conversorDeMoedasToolStripMenuItem;
@@ -633,5 +650,6 @@
         private Label lblAuxiliar;
         private ToolStripMenuItem sAIRToolStripMenuItem;
         private ToolStripMenuItem calculadoraToolStripMenuItem;
+        private Button btnHistory;
     }
 }

@@ -111,5 +111,10 @@ namespace calculator_final
         {
             Application.Exit();
         }
+
+        private void FormConversorMoedas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

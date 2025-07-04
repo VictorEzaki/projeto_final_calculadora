@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
-    Microsoft ResX Schema 
+    Microsoft ResX Schema
 
     Version 2.0
 
@@ -48,7 +48,7 @@
     value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
     value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
@@ -549,7 +549,7 @@
         gg==
 </value>
   </data>
-  <metadata name="mnsMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="btnMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <data name="tableLayoutPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -594,6 +594,17 @@
         NDYj9ZzSN4enNDE+q0/bAZlb/Mt0/oIA7m+LjuvieLdJZXxW/xqaUrr7NT1kJ4He+qefVlx6Suo711mU
         jpvFpfuE9OIxaXxWlZ5T0uHfSo0T+sbQpH4xclEnh6f14egl/Wff20wuwEpSnlzG39aN0Uv6ZHhKfx+9
         qJcGzusnu47qKwfnpN3H/OX9la0D0vNHpN43OkuS3/4HdfAcmFuTPpAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnHistory.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAARFJREFUOE+Fk7FuAkEMRLkCmpTQUdFRAPkNAkqQIFG61KmALsn30CAg6ego+LOH
+        hnjBmD0YyTqvZ+zd9XkrFQPw4fwCeARezOQXic8CWABVYA78Aj/AKzABvoG1cbWYewTwZ4lDF3uQuXUf
+        2ACNU6Ijl8AeWAFTi41lQdeyIueTAG0vSsgVsPhA10kLNWwdRUJZAcFOUcjpqGFRINwpoCb35DwD71Eg
+        ADNZjAvAGzCSM9LvygiawA54ipzgC2hIvgKp5K2+Pu5hV+hmmwh83koWbLD+p9MmrB9FZdCwpVlJgZr9
+        ltaFMgM3SNVINIwYXBAOtrOOXo/cEXYSXUeF0mOSyVdserVzDtbYnnvO3bLnfABoom1of9b+twAAAABJ
+        RU5ErkJggg==
 </value>
   </data>
 </root>
