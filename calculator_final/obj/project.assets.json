@@ -55,23 +55,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\soft4\\.nuget\\packages\\": {},
+    "C:\\Users\\victor.ezaki\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\soft4\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj",
+      "projectUniqueName": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj",
       "projectName": "calculator_final",
-      "projectPath": "C:\\Users\\soft4\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj",
-      "packagesPath": "C:\\Users\\soft4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\soft4\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\obj\\",
+      "projectPath": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\calculator_final.csproj",
+      "packagesPath": "C:\\Users\\victor.ezaki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\victor.ezaki\\Documents\\repos\\projeto_final_calculadora\\calculator_final\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\soft4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\victor.ezaki\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -80,6 +80,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

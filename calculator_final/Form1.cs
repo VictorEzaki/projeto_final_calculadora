@@ -1,11 +1,12 @@
 using System.Data;
 using System.Linq.Expressions;
+using System.Windows.Forms;
 
 namespace calculator_final
 {
     public partial class Form1 : Form
     {
-        List<float> history = new List<float>();
+        List<string> history = new List<string>();
 
         private string StringResult { get; set; }
 
@@ -128,6 +129,7 @@ namespace calculator_final
                 var result = new DataTable().Compute(expression, null);
 
                 lblResult.Text = result.ToString();
+                history.Add(StringResult + " = " + lblResult.Text);
                 StringResult = "";
                 lblAuxiliar.Text = "";
             }
@@ -231,6 +233,23 @@ namespace calculator_final
             FormRegraTres formRegraTres = new FormRegraTres();
             Hide();
             formRegraTres.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // percorre toda a lista para fazer histórico
+            string message = "";
+            foreach (string item in history)
+            {
+                message += item + "\n";
+            }
+
+            MessageBox.Show(message);
+        }
+
+        private void FormCalculadora_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
