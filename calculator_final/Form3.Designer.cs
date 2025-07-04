@@ -205,6 +205,7 @@
             Name = "FormConversorMoedas";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Conversor de Moedas";
+            Load += FormConversorMoedas_Load;
             mnsMenu.ResumeLayout(false);
             mnsMenu.PerformLayout();
             ResumeLayout(false);
